@@ -1,0 +1,63 @@
+<mujoco model="ur5gripper">
+    <compiler angle="radian"
+              inertiafromgeom="true"
+              texturedir="textures/"
+              meshdir="mesh/visual/"/>
+    <option timestep="1e-3"
+            iterations="10"
+            tolerance="1e-10"
+            impratio="20"/>
+    <size njmax="600" nconmax="150" nstack="300000"/>
+
+    <default>
+        <site rgba="0.8 0.6 0.7 0.3" type="ellipsoid" group="3"/>
+        <geom contype='1' conaffinity='1' condim='4'  margin="1e-3" solref=".01 1" solimp=".99 .99 .01" />
+        <joint armature="0.01" damping="15"/>
+<!--         <default class="UR5">
+            <joint damping='65'/>
+        </default>
+        <default class="UR5e">
+            <joint damping='45'/>
+        </default>
+        <default class="GRIPPER">
+            <joint damping='5'/>
+        </default> -->
+    </default>
+
+    <visual>
+        <map fogstart="3" fogend="5" znear="0.05"/>
+        <quality shadowsize="2048"/>
+        <scale framelength="0.1"
+               framewidth="0.005"
+               contactwidth="0.1"
+               contactheight="0.005"
+               forcewidth="0.01"
+               />
+    </visual>
+
+  <worldbody>
+    <light diffuse=".7 .7 .7" pos="0 0 4" dir="0 0 -1"/>
+    <light diffuse=".7 .7 .7" pos="1.5 1.5 4" dir="0 0 -1"/>
+    <light diffuse=".7 .7 .7" pos="1.5 -1.5 4" dir="0 0 -1"/>
+    <light diffuse=".7 .7 .7" pos="-1.5 1.5 4" dir="0 0 -1"/>
+    <light diffuse=".7 .7 .7" pos="-1.5 -1.5 4" dir="0 0 -1"/>
+    <geom name='floor'  pos='0 0 0' size='2.5 2.5 0.1'  type='plane' />
+
+    <body name="box" pos="0 0 1.435">
+      <joint name='joint_1' type='hinge' axis='1 0 0' />
+      <geom type='box' size='0.01 0.2 0.01' pos='0 0.2 0' />
+      <body name='2ndStick' pos='0.02 0.42 0' >
+        <joint name='joint_2' type='hinge' axis='1 0 0' pos='0 0 0' />
+        <geom type='box' size='0.01 0.2 0.01' pos='0 0.2 0' />
+      </body>
+    </body>
+
+  </worldbody>
+
+  <actuator>
+    <position name='p1' joint='joint_1' kp="500" />
+    <position name='p2' joint='joint_2' kp="100" />
+    <velocity name='v1' joint='joint_1' kv="10" />
+    <velocity name='v2' joint='joint_2' kv="1" />
+  </actuator>
+</mujoco>

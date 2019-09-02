@@ -1,0 +1,21 @@
+MuJoCo Pro Lab license activation key, number 6755, type 6.
+
+Issued to Prof. Volkan Isler, University of Minnesota.
+
+Expires August 14, 2020.
+
+Do not share this file with anyone other than the users covered
+by your license agreement with Roboti LLC. This file activates
+MuJoCo Pro on any computer running any supported OS.
+
+Do not modify this file. Its entire content, including the
+plain text section, is used by the activation manager.
+
+e6d65226dc407c4ebb2c448fbe5f1bfd238edb5e15adbeaeb0abbf8cd7a91547
+a40f417de341e1eb83b31807600ebe3812a6a394c1eb773fc5026e0832f67fc3
+340db29fae7399e2df169d1e1a287e7fdd2781debb16151f3398e0bfbef7ec8c
+1b78234e27260254bd9ebe40d90d28330e16b7e94a4409a23619e66acb12892f
+88947c8e2c8ca56173b4b61fbb267d608635d8bc0764ec18eef3a53d0db6fe0d
+a0ad7ce3c4d6038c48746fe6578c2b81d54208150f7f52ae13628888b5a75a71
+2e5f474cf69bca02a14d93c1cd08b4863139c27099dce372fead6517d7f9bc1f
+cd4d044771dd69364a1e7793ee864bc529c447e74fdd68503453201353f08913

@@ -1,0 +1,20 @@
+MuJoCo Pro Personal license activation key, number 64819, type 6.
+
+Issued to Minghan Wei <weixx526@umn.edu>.
+
+Expires December 13, 2019.
+
+This file activates MuJoCo Pro on a single computer with id:
+LINUX_RMACHHS7G5050S7E630_RPE55ACE22H1TT216
+
+Do not modify this file. Its entire content, including the
+plain text section, is used by the activation manager.
+
+2679ae2c8999eb3fe03f39cac637550ae40656ed73024e1bb792764429e1ca32
+a144595cf00c76dc1b63cceb356b255c52776775155568ae88fe8cb442d17d19
+a06716b43d5cb429ced85c5885950e30e42a65f44ef4cc13933e4a81c9261651
+7ba3bc5c5e7795452bd9ca22098288700737b2b56c5bd03100d0ddc5683940dc
+3f08283c52fdd1aa500e1703c672f1cbe118636227902ff50b44165b1a6d2ed1
+19ca41479171337ab0599d3198852d48b620cff32561a3ea7c80cf75751fba03
+67d5397b8fa54c89f82a404c4f7358c753e8b70d8f4c0db198dbb195b5cf18ba
+48ed9673479aa5cc33760693af22d66fc837aa18bb581024b0e1877a3e1c04d7
